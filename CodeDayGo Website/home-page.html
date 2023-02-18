@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Roboto:wght@700&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+
+  <title> Home </title>
+  <link rel="stylesheet" href="./home-page.css"/>
+</head>
+
+<body>
+  <div class="line" style="margin-top: 150px"> </div>
+  <h1 class="title-top"> THIS IS SPACE </h1>
+  <div class="line" style="margin-bottom: 70px"> </div>
+
+  <div class="container">
+
+    <div class="content1">
+      <div class="img-holder">
+        <img class="img" src="./resources/img/CTA.png" alt="planet" title="planet" margin="auto">
+      </div>
+      <div class="text">
+        <h2> <span class="discover">DISCOVER</span> new worlds </h1>
+        <h3> <span class="embark">EMBARK</span> on exciting adventures </h3>
+        <h4> <span class="explore">EXPLORE</span> a collection of space-themed games. </h5>
+      </div>
+    </div>
+
+    <div class="content2">
+      <div class="cards-group">
+        <div class="small-card card"> </div>
+        <div class="big-card card"> </div>
+        <div class="small-card card"> </div>
+        <div class="big-card card"> </div>
+        <div class="small-card card"> </div>
+        <div class="big-card card"> </div>
+        <div class="small-card card"> </div>
+        <div class="big-card card"> </div>
+      </div>
+      <div class="word">
+        SELECT AN ADVENTURE!
+      </div>
+    </div>
+
+    <div class="content3">
+      <div class="contents">
+        <div class="content-image">
+          <img class="img2" src="./resources/img/game guides.png" height="320" alt="planet" title="planet" margin="auto">
+        </div>
+        <h2 class="text2"> Guides </h2>
+      </div>
+      <div class="contents">
+        <div class="content-image">
+          <img class="img2" src="./resources/img/NMS.jpg" height="320" alt="planet" title="planet" margin="auto">
+        </div>
+        <h2 class="text2"> Previews </h2>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="closing"> Bring back the good old days of Space Games</h1>
+
+  <div class="spaceshooter">
+    <p style = "position: absolute; z-index: 10; color: white; 
+        left: 10px; top: 10px; font-family: tahoma; font-size: 18; margin: 0">
+        <span>Score: </span><span id="scoreBar">0</span>
+    </p>
+    <canvas class="game"></canvas>
+  </div>
+  <script src="./space-shooter.js "></script>
+
+  <div class="spacer"></div>
+
+  <div class="top-bar">
+    <div class="logo"></div>
+    <div class="navigate">
+      <button class="navigation-buttons"><a href="home-page.html" style="text-decoration: none; color: rgba(255, 255, 0, 1)"> Home </a></button>
+      <button class="navigation-buttons"><a href="projects-page.html" style="color: #F8982C; text-decoration: none;"> Projects </a></button>
+      <button class="navigation-buttons"><a href="team-page.html" style="color: #F8982C; text-decoration: none;"> The Team </a></button>
+      <button class="join-button"> <a href="index.html" style="color: #F8982C; text-decoration: none;"> JOIN US </a></button>
+    </div>
+  </div>
+
+  <div class="bottom-bar"></div>
+</body>
+
+</html>

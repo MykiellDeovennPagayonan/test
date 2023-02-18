@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Roboto:wght@700&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+
+  <title> Team Page </title>
+  <link rel="stylesheet" href="./team-page.css"/>
+</head>
+
+<body>
+  <div class="line" style="margin-top: 150px"> </div>
+  <h1 class="title-top"> THE TEAM </h1>
+  <div class="line" style="margin-bottom: 70px"> </div>
+
+  <div class="container">
+    <div class="content">
+
+      <button class="prev" onclick="prev()">
+        prev
+      </button>
+  
+      <div class="profile">
+        <div class="profile-image">
+          <img class="img" id="img" src="./resources/img/blank.png" alt="planet" title="planet" margin="auto">
+        </div>
+        <div class="profile-description">
+          <h1 id="name"> name </h1>
+          <h3 id="title"> Title </h3>
+        </div>
+      </div>
+  
+      <button class="next" onclick="next()">
+        next
+      </button>
+
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="top-bar">
+    <div class="logo"></div>
+    <div class="navigate">
+      <button class="navigation-buttons"><a href="home-page.html" style="color: #F8982C; text-decoration: none;"> Home </a></button>
+      <button class="navigation-buttons"><a href="projects-page.html" style="color: #F8982C; text-decoration: none;"> Projects </a></button>
+      <button class="navigation-buttons"><a href="team-page.html" style="text-decoration: none; color: rgba(255, 255, 0, 1)"> The Team </a></button>
+      <button class="join-button"> <a href="index.html" style="color: #F8982C; text-decoration: none;"> JOIN US </a></button>
+    </div>
+  </div>
+
+  <div class="bottom-bar"></div>
+
+  <script src="./team-page.js"></script>
+</body>
+
+</html>
